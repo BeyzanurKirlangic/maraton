@@ -20,7 +20,6 @@ public class maraton {
     public static void ilk3(String[] isim, int[] derece) {
         zamanSıralama(isim, derece);
 
-        // İlk üç öğrenciyi yazdır
         for (int i = 0; i < 3; i++) {
             System.out.println(isim[i] + ": " + derece[i]);
         }
